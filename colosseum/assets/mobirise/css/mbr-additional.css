@@ -1114,13 +1114,17 @@ section.lazy-placeholder:after {
 .cid-rM27sdSqW2 .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
-.cid-rM27sdSqW2 .media-container-column {
-  background-color: #2f621d;
-}
 @media (max-width: 767px) {
   .cid-rM27sdSqW2 .media-container-column {
     padding: 1rem !important;
   }
+}
+.cid-rM27sdSqW2 H1 {
+  color: #232323;
+}
+.cid-rM27sdSqW2 .mbr-text,
+.cid-rM27sdSqW2 .mbr-section-btn {
+  color: white;
 }
 .cid-rM2g7uAN5H {
   padding-top: 15px;

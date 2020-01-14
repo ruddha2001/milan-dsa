@@ -15,6 +15,27 @@
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Milan Colosseum</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Milan Colosseum is here. Where are you?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="redirectColosseum()">Visit Colosseum</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Milan 2020</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -89,7 +110,10 @@
         <br />
         <p style="font-size: 1.3rem; padding-left: 100px; padding-top:20px; padding-bottom:20px; color:white; font-weight: 900; font-family: Acme, sans-serif; background-color: black;"
           class="col-10 col-md-5">
-          When thinking of the best college fests in India, one does not simply miss Milan on the list. Milan is the annual national level cultural fest of SRM University. With a plethora of domains and an even larger platter of events overall, Milan promises loads of fun for all kinds of individuals. Come, live the change with the 80000+ people attending Milan and we promise, you'll make memories and friends for a lifetime.
+          When thinking of the best college fests in India, one does not simply miss Milan on the list. Milan is the
+          annual national level cultural fest of SRM University. With a plethora of domains and an even larger platter
+          of events overall, Milan promises loads of fun for all kinds of individuals. Come, live the change with the
+          80000+ people attending Milan and we promise, you'll make memories and friends for a lifetime.
         </p>
       </div>
     </div>
@@ -131,7 +155,8 @@
       <div style="padding-top: 50px; padding-bottom: 50px;">
         <a href="/gaming/"><img class="mx-auto glow-class" src="assets/clubs/Picture5.png"
             style="width: 150px; display: block;" /><br>
-          <a class="btn btn-dark btn-lg d-block mx-auto glow-class" style="width: fit-content;" href="/gaming/">Gaming</a>
+          <a class="btn btn-dark btn-lg d-block mx-auto glow-class" style="width: fit-content;"
+            href="/gaming/">Gaming</a>
         </a>
       </div>
       <div style="padding-top: 50px; padding-bottom: 50px;">
@@ -155,7 +180,8 @@
       <div style="padding-top: 50px; padding-bottom: 50px;">
         <a href="/fashion/"><img class="mx-auto glow-class" src="assets/clubs/Picture12.png"
             style="width: 150px; display: block;" /><br>
-          <a class="btn btn-dark btn-lg d-block mx-auto glow-class" style="width: fit-content;" href="/fashion/">Fashion</a>
+          <a class="btn btn-dark btn-lg d-block mx-auto glow-class" style="width: fit-content;"
+            href="/fashion/">Fashion</a>
         </a>
       </div>
       <div style="padding-top: 50px; padding-bottom: 50px;">
@@ -233,14 +259,19 @@
     </h1>
     <p class="col-12 offset-0 col-md-6 offset-md-3"
       style="width: 100%; height: fit-content; text-align: center;margin-top:-100px;color: white;">
-      <u style="text-align: center;">Kiruthika Shalini</u><br><a style="text-align: center;" href="tel:+919952907890">+91 99529 07890</a><br><br><u style="text-align: center;">Jithendran Kumar</u><br><a style="text-align: center;" href="tel:+919677140657">+91 96771 40657</a>
+      <u style="text-align: center;">Kiruthika Shalini</u><br><a style="text-align: center;"
+        href="tel:+919952907890">+91 99529 07890</a><br><br><u style="text-align: center;">Jithendran Kumar</u><br><a
+        style="text-align: center;" href="tel:+919677140657">+91 96771 40657</a>
     </p><br><br>
     <p id="email-contact" class="col-12 offset-0 col-md-6 offset-md-3"
       style="width: 100%; height: fit-content; text-align: center;margin-top:-100px;color: white;">
-      <u>Email</u><br><a href="mailto:publicity.studentaffairs@srmist.edu.in">publicity.studentaffairs@srmist.edu.in</a><br><a href="mailto:culturalsecretary.sa@srmist.edu.in">culturalsecretary.sa@srmist.edu.in</a>
+      <u>Email</u><br><a
+        href="mailto:publicity.studentaffairs@srmist.edu.in">publicity.studentaffairs@srmist.edu.in</a><br><a
+        href="mailto:culturalsecretary.sa@srmist.edu.in">culturalsecretary.sa@srmist.edu.in</a>
       <br>
       <br>
-      <a href="https://tawk.to/chat/5e1485a427773e0d832c475b/default" class="btn btn-large btn-success d-block mx-auto" style="width: 200px;font-size: 2rem;">Chat with Us</a>
+      <a href="https://tawk.to/chat/5e1485a427773e0d832c475b/default" class="btn btn-large btn-success d-block mx-auto"
+        style="width: 200px;font-size: 2rem;">Chat with Us</a>
     </p>
   </div>
 
@@ -256,7 +287,11 @@
     crossorigin="anonymous"></script>
 
   <script>
+    function redirectColosseum(){
+      window.location.href="https://srmmilan.org/colosseum";
+    }
     $(document).ready(function () {
+      $('#exampleModal').modal('show');
       $(".owl-carousel").owlCarousel({
         loop: true,
         items: 2,
