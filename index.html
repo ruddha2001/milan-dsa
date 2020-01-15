@@ -17,17 +17,17 @@
 <body>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+    aria-hidden="true" style="font-family: Legend, sans-serif;">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Milan Colosseum</h5>
+          <h4 class="modal-title" id="exampleModalLabel">Milan Colosseum</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          Milan Colosseum is here. Where are you?
+          Milan Colosseum is here.<br>Join the fun.
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -212,9 +212,6 @@
             <img src="assets/collages/PicsArt_12-29-01.47.15.jpg" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="assets/collages/PicsArt_12-29-01.50.11.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
             <img src="assets/collages/PicsArt_12-29-01.53.02.jpg" class="d-block w-100">
           </div>
           <div class="carousel-item">
@@ -288,7 +285,7 @@
 
   <script>
     function redirectColosseum(){
-      window.location.href="https://srmmilan.org/colosseum";
+      window.open('https://www.srmmilan.org/colosseum', '_blank');
     }
     $(document).ready(function () {
       $('#exampleModal').modal('show');

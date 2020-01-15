@@ -63,6 +63,12 @@ body {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Legend";
+  src: url("assets/Legend.ttf");
+  font-style: normal;
+}
+
 #home,
 #about-us,
 #event-gallery {

@@ -7,7 +7,7 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Prisma';
+  font-family: 'Legend M54';
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -15,7 +15,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Prisma';
+  font-family: 'Legend M54';
   font-size: 2.4rem;
   font-display: swap;
 }
@@ -1114,6 +1114,7 @@ section.lazy-placeholder:after {
 .cid-rM27sdSqW2 .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
+
 @media (max-width: 767px) {
   .cid-rM27sdSqW2 .media-container-column {
     padding: 1rem !important;
@@ -1124,7 +1125,7 @@ section.lazy-placeholder:after {
 }
 .cid-rM27sdSqW2 .mbr-text,
 .cid-rM27sdSqW2 .mbr-section-btn {
-  color: white;
+  color: #000000;
 }
 .cid-rM2g7uAN5H {
   padding-top: 15px;
@@ -1254,49 +1255,6 @@ section.lazy-placeholder:after {
   transition: box-shadow 0.3s;
 }
 .cid-rM2QwbbDOt .card-title {
-  text-align: center;
-}
-.cid-rM2QKnMStJ {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-image: url("../../../assets/images/lubo-minar-j2rghfqkhcm-unsplash-2000x1333.jpg");
-}
-.cid-rM2QKnMStJ .card-box {
-  padding: 0 2rem;
-}
-.cid-rM2QKnMStJ .mbr-section-btn {
-  padding-top: 1rem;
-}
-.cid-rM2QKnMStJ .mbr-section-btn a {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.cid-rM2QKnMStJ h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 2rem;
-}
-.cid-rM2QKnMStJ p {
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 1.5rem;
-}
-.cid-rM2QKnMStJ .mbr-text {
-  color: #767676;
-}
-.cid-rM2QKnMStJ .card-wrapper {
-  height: 100%;
-  padding-bottom: 2rem;
-  background: #f83e6d;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-rM2QKnMStJ .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-.cid-rM2QKnMStJ .card-title {
   text-align: center;
 }
 .cid-rM2XEiYEW6 {
