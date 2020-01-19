@@ -60,7 +60,9 @@
     "gdpr": false,
     "uniqCompNum": 28,
     "versionPublish": "4.11.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/GITA%20ALEKHYA%20PAUL/Desktop/Milan%20Website%20Final/milan-dsa/photography"
   },
   "pages": {
     "index.html": {

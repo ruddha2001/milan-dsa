@@ -4,7 +4,7 @@ This is the **Official Website for Milan 2020**. Milan is a national level cultu
 
 The website is made by the following people:
 * Aniruddha Chatterjee *(Project Lead, Fullstack Developer)*
-* Gita Alekhya Paul *(Frontend Developer)*
+* [Gita Alekhya Paul](https://github.com/gitaalekhyapaul) *(Frontend Developer)*
 * Snehil *(Frontend Developer and Graphics Editing)*
 
 The website is based on **HTML/CSS** and uses **Javascript** to add functionality. **Bootstrap 4** finds its use in this website.
